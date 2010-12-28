@@ -1,3 +1,1 @@
-(:name frame-cmds
-       :type emacswiki
-       :features "frame-cmds")
+(:name frame-cmds :type emacswiki)

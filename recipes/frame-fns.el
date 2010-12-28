@@ -1,3 +1,1 @@
-(:name frame-fns
-       :type emacswiki
-       :features "frame-fns")
+(:name frame-fns :type emacswiki)

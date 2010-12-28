@@ -4,4 +4,5 @@
        :features markdown-mode
        :after (lambda ()
 		(add-to-list 'auto-mode-alist
-			     '("\\.\\(md\\|mdown\\|markdown\\)\\'" . markdown-mode))))
+			     '("\\.\\(md\\|mdt\\|text\\|mdown\\|markdown\\)\\'" . markdown-mode))
+                (add-hook 'markdown-mode-hook (lambda () (variable-pitch-mode t)))))
