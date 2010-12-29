@@ -4,5 +4,4 @@
        :info "doc"
        :url ":pserver:anonymous:anonymous@common-lisp.net:/project/slime/cvsroot"
        :load-path ("." "contrib")
-       :compile ("*.el")
-       )
+       :compile ("*.el"))

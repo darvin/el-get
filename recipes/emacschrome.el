@@ -1,4 +1,7 @@
 (:name emacschrome
        :type git
        :url "http://github.com/cbbrowne/emacs_chrome.git"
-       :load-path "servers")
+       :load-path ("servers")
+       :features edit-server
+       :after (lambda () (if (and (daemonp) (locate-library "edit-server"))
+                         (edit-server-start))))
